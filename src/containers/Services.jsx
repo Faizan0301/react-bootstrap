@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Slider from '../components/Slider'
 
 function Services() {
   return (
@@ -142,6 +143,8 @@ function Services() {
         </div>
         {/* End Product Section */ }
       </div>
+
+      <Slider/>
 
     </>
   )

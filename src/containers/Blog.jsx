@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Slider from '../components/Slider'
 
 function Blog() {
   return (
@@ -115,6 +116,8 @@ function Blog() {
           </div>
         </div>
       </div>
+
+      <Slider/>
 
     </>
   )

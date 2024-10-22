@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Hero({title,subTitle,description,imgSrc ,none}) {
   return (
@@ -10,7 +11,7 @@ function Hero({title,subTitle,description,imgSrc ,none}) {
                             <div className="intro-excerpt">
                                 <h1>{title} <span clsas="d-block">{subTitle}</span></h1>
                                 <p className={`mb-4 ${none}`}>{description}</p>
-                                <p className={none}><a href className="btn btn-secondary me-2">Shop Now</a><a href="#" className="btn btn-white-outline">Explore</a></p>
+                                <p className={none}><Link to="/shop" className="btn btn-secondary me-2">Shop Now</Link><Link  className="btn btn-white-outline">Explore</Link></p>
                             </div>
                         </div>
                         <div className={`col-md-5 col-lg-7 ${none}`}>

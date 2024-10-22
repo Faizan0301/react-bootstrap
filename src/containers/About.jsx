@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
+import Slider from '../components/Slider'
 
 function About() {
   return (
@@ -119,6 +120,8 @@ function About() {
         </div>
         {/* End Team Section */ }
       </div>
+
+      <Slider/>
 
     </>
   )

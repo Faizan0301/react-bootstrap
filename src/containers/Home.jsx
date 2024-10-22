@@ -186,6 +186,8 @@ function Home() {
         </div>
       </div>
 
+      <Slider/>
+
       <div className="blog-section">
         <div className="container">
           <div className="row mb-5">
@@ -233,8 +235,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <Slider/>
 
     </>
   )
